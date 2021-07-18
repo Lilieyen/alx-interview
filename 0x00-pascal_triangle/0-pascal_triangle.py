@@ -3,6 +3,7 @@
 
 
 def pascal_triangle(n):
+    """print pascal triangle"""
     list1 = []
     if n > 0:
         for i in range(1, n + 1):
