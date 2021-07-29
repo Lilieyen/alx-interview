@@ -7,11 +7,8 @@ def minOperations(n):
     a method that calculates the fewest number of operations needed
     to result in exactly n H characters in the file
     """
-    if n == 0:
+    if n <= 1:
         return 0
-
-    if n == 1:
-        return n - 1
 
     """loop for n number of times"""
     for i in range(2, n + 1):
